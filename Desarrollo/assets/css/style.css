@@ -1,0 +1,30 @@
+html{
+
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0px;
+}
+
+.head{
+    position: fixed;
+    text-align: left;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    color: whitesmoke;
+    top: 0;
+    width: 100%;
+    background-color: rgb(233, 108, 6, 0.7);
+    font-size: 40px;
+    grid-template-rows: 5%;
+}
+nav{
+    grid-template-rows: 25%;
+    grid-template-areas: 1f 1f;
+}
+nav li{
+    display: inline-block;
+    grid-template-areas: 1f 1f;
+}
