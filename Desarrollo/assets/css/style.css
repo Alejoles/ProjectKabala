@@ -7,15 +7,12 @@ body{
     margin: 0px;
 }
 .grid-container{
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     display: grid;
     padding: 10px;
+    grid-gap: 10px;
 }
 
-.relleno{
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
 
 .head{
     position: fixed;
@@ -30,11 +27,13 @@ body{
     font-size: 40px;
     grid-template-rows: 5%;
 }
-nav{
-    grid-template-rows: 25%;
-    grid-template-areas: 1f 1f;
-}
+
 nav li{
     display: inline-block;
-    grid-template-areas: 1f 1f;
+    padding: 20px;
+}
+
+.navbar{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
