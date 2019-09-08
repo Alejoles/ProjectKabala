@@ -211,3 +211,137 @@ h1{
     background-color: rgba(117, 110, 110, 0.35);
     margin: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+a{
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.bottom{
+    grid-row-start: 7;
+    grid-row-end: 10; 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(100, 150, 104, 0.39);
+}
+
+.cuerpo{
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(147, 148, 148, 0.233);
+}
+.prods{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    display: grid;
+    text-align: center;
+
+}
+
+.prods2{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+
+}
+
+.producto1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.producto2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.producto3{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.producto4{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.producto5{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.producto6{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.producto7{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.producto8{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.producto9{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.producto10{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.cuidados{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    
+    text-align: center;
+    
+}
+
+.cuidados2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.cuid1{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-family: 'Indie Flower', cursive;
+
+    font-size: 20px;
+}
