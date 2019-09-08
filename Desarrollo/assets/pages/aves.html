@@ -11,12 +11,16 @@
     <div class="total">
         <header class="head">Kabala</header>
         <div class="head-container">
-            <nav class="navbarl">
+            <nav class="navbarl"  id="myTopnav">
                 <ul class="lleft">
                     <li><a href="/Desarrollo/index.html"><img src="/Desarrollo/assets/img/cat.svg" width="50px%"></a></li>
                     <li class="select"><a href="/Desarrollo/assets/pages/gatos.html">Gatos</li>
                     <li class="select"><a href="/Desarrollo/assets/pages/perros.html">Perros</a></li>
                     <li class="select"><a href="/Desarrollo/assets/pages/aves.html">Aves</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                    </li>
                 </ul>
             </nav>
             <nav class="navbarr">
@@ -167,5 +171,16 @@
             </div>
         </div>
     </div>
+    
+<script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 </html>
